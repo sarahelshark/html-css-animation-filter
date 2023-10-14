@@ -39,11 +39,24 @@
 /* #endregion common*/
 
 /* #region exercise style*/
+
+/* #region exercise 1*/
 .ex-1-square {
+    
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    transition: 3s;
+}
+.ex-1-square:hover {
     width: 100px;
     height: 100px;
     border: 1px solid red;
 }
+
+/* #endregion exercise 1*/
+
+
 .ex-2-square {
     width: 100px;
     height: 100px;
