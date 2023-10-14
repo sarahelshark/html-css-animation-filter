@@ -57,11 +57,21 @@
 /* #endregion exercise 1*/
 
 
+/* #region exercise 2*/
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 5s;
 }
+.ex-2-square:active {
+    width: 400px;
+    height: 200px;
+    background: red;
+}
+/* #endregion exercise 2*/
+
+
 .ex-3-square {
     width: 100px;
     height: 100px;
